@@ -6,13 +6,14 @@
 /*   By: mbkomaqp <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 15:33:42 by mbkomaqp          #+#    #+#             */
-/*   Updated: 2020/07/10 15:37:54 by mbkomaqp         ###   ########.fr       */
+/*   Updated: 2020/07/12 11:03:41 by mbkomaqp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_swap(int *a, int *b)
 {
-	int temp;
+	int		temp;
+
 	temp = *a;
 	*a = *b;
 	*b = temp;
